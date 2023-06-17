@@ -4,6 +4,7 @@ import { Header, Footer, ApiLoader } from 'components';
 import { withProviders } from 'hocs';
 import 'App.scss';
 import { UnityCanvas } from 'components/unity-componentes/UnityCanvas';
+import { ReadState } from "./components/sc-components/ReadState";
 
 function Component() {
   const { isApiReady } = useApi();
@@ -11,10 +12,32 @@ function Component() {
 
   return (
     <>
+        <div className="background">
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+            <span/>
+        </div>/
       <Header isAccountVisible={isAccountReady} />
         <div className="aplicationContainer">
             <UnityCanvas />
             <main className="marketPlaceContainer">{isApiReady && isAccountReady ? <Routing /> : <ApiLoader />}</main>
+            <ReadState/>
         </div>
     </>
   );
