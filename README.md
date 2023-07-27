@@ -9,4 +9,4 @@ This project preserves the virtual pet as avatar of the users and the available 
 For this Varathon season, we are submitting the code and video demo of our original project, Pawsitive Vibes, while, for the presentation video, we are submitting a trailer video of the upgraded project Serenium.
 
 # Trailer video
-Link to presentation video: 
+Link to presentation video: https://youtu.be/HIHTf17KKAU
